@@ -78,6 +78,196 @@
       color: #1a3a1e;
     }
 
+    .icloud-note {
+      background: #f0f4ff;
+      border-left: 4px solid #3478f6;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 14px;
+      font-size: 14px;
+      color: #1c3a6e;
+    }
+
+    .effective {
+      text-align: center;
+      font-size: 13px;
+      color: #8a8a8e;
+      margin-top: 32px;
+    }
+
+    a { color: #1a4a1e; }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: #8a8a8e;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="crown">♛</div>
+  <h1>5 Crowns Scorekeeper</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+
+  <div class="highlight">
+    <strong>Short version:</strong> This app stores your game data on your device and, if you are
+    signed into iCloud, optionally syncs it across your devices using Apple's private CloudKit
+    database. We do not collect, sell, or share your data.
+  </div>
+
+  <div class="card">
+    <h2>Overview</h2>
+    <p>
+      5 Crowns Scorekeeper ("the App") is a score-tracking utility for the card game 5 Crowns.
+      It is developed and maintained by Randy Cox ("we", "us", "our").
+    </p>
+    <p>
+      We are committed to protecting your privacy. This policy explains what information the App
+      handles and how.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Information We Do Not Collect</h2>
+    <p>The App does <strong>not</strong> collect, transmit, or share any of the following:</p>
+    <ul>
+      <li>Personal identification information (email, phone number, etc.)</li>
+      <li>Location data</li>
+      <li>Device identifiers or advertising IDs</li>
+      <li>Usage analytics or crash reports</li>
+      <li>Any data with third-party advertisers or data brokers</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Data Storage &amp; iCloud Sync</h2>
+    <p>
+      Player names, game scores, and game history are stored <strong>locally on your device</strong>.
+      This data never leaves your device unless you are signed into iCloud and have iCloud enabled
+      for this app.
+    </p>
+    <p>
+      If you are signed into iCloud, the App uses <strong>Apple CloudKit</strong> to sync your
+      game history and statistics across your personal devices. This means:
+    </p>
+    <ul>
+      <li>Your data is stored in <strong>your private iCloud account</strong>, not on our servers</li>
+      <li>Randy Cox has no access to your iCloud data at any time</li>
+      <li>Data is encrypted in transit and at rest by Apple</li>
+      <li>You can disable iCloud sync at any time in <strong>iOS Settings → [Your Name] → iCloud →
+          5 Crowns Scorekeeper</strong></li>
+    </ul>
+    <div class="icloud-note">
+      Apple's handling of iCloud and CloudKit data is governed by
+      <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple's Privacy Policy</a>.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>In-App Purchases &amp; Subscriptions</h2>
+    <p>
+      The App offers an optional subscription via the Apple App Store. All payment transactions
+      are processed entirely by Apple. We do not collect, store, or have access to any payment
+      or billing information.
+    </p>
+    <p>
+      Subscription management is governed by
+      <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank">Apple's
+      Standard End User License Agreement</a>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Third-Party Services</h2>
+    <p>The App uses the following Apple-provided services only:</p>
+    <ul>
+      <li><strong>Apple CloudKit</strong> — private iCloud data sync (see above)</li>
+      <li><strong>Apple StoreKit</strong> — subscription and purchase management</li>
+    </ul>
+    <p>
+      No third-party analytics platforms, advertising networks, crash-reporting SDKs,
+      or social media services are integrated into the App.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Data Deletion</h2>
+    <p>
+      To delete your local game history, use the <strong>Clear All</strong> option within the
+      Stats &amp; History screen in the App.
+    </p>
+    <p>
+      To delete your iCloud data, go to <strong>iOS Settings → [Your Name] → iCloud →
+      Manage Account Storage → 5 Crowns Scorekeeper → Delete Data</strong>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Children's Privacy</h2>
+    <p>
+      The App is suitable for all ages. We do not knowingly collect personal information from
+      children under 13. The App complies with the Children's Online Privacy Protection Act (COPPA).
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Changes to This Policy</h2>
+    <p>
+      If we make changes to this privacy policy, we will update the "Effective Date" below
+      and post the revised policy at this URL. Continued use of the App after any changes
+      constitutes acceptance of the updated policy.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Contact Us</h2>
+    <p>
+      If you have any questions about this privacy policy, please contact us at:
+    </p>
+    <p>
+      GitHub: <a href="https://github.com/randy-app">github.com/randy-app</a>
+    </p>
+  </div>
+
+  <p class="effective">Effective Date: April 12, 2026</p>
+
+</main>
+
+<footer>
+  &copy; 2026 Randy Cox &mdash; 5 Crowns Scorekeeper
+</footer>
+
+</body>
+</html>
+    }
+
+    p { font-size: 15px; color: #3a3a3c; margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul {
+      margin: 10px 0 10px 20px;
+      font-size: 15px;
+      color: #3a3a3c;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #eaf6ec;
+      border-left: 4px solid #1a4a1e;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+      font-size: 15px;
+      color: #1a3a1e;
+    }
+
     .effective {
       text-align: center;
       font-size: 13px;
