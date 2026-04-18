@@ -57,6 +57,14 @@
       margin-bottom: 12px;
     }
 
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a4a1e;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
+
     p { font-size: 15px; color: #3a3a3c; margin-bottom: 10px; }
     p:last-child { margin-bottom: 0; }
 
@@ -76,6 +84,16 @@
       margin-bottom: 20px;
       font-size: 15px;
       color: #1a3a1e;
+    }
+
+    .ad-note {
+      background: #fff8e1;
+      border-left: 4px solid #f2c832;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-top: 14px;
+      font-size: 14px;
+      color: #4a3800;
     }
 
     .icloud-note {
@@ -108,7 +126,7 @@
 <body>
 
 <header>
-  <div class="crown">♛</div>
+  <div class="crown">&#9819;</div>
   <h1>5 Crowns Scorekeeper</h1>
   <p>Privacy Policy</p>
 </header>
@@ -116,9 +134,11 @@
 <main>
 
   <div class="highlight">
-    <strong>Short version:</strong> This app stores your game data on your device and, if you are
-    signed into iCloud, optionally syncs it across your devices using Apple's private CloudKit
-    database. We do not collect, sell, or share your data.
+    <strong>Short version:</strong> The free version of this app is supported by Google AdMob
+    advertising. Ads may use your device's advertising identifier to serve personalized ads.
+    You can opt out of personalized ads or remove all ads entirely with our $0.99/year
+    ad-free subscription. Your game data is stored locally on your device and, if you are
+    signed into iCloud, synced privately via Apple CloudKit. We do not sell your data.
   </div>
 
   <div class="card">
@@ -129,28 +149,144 @@
     </p>
     <p>
       We are committed to protecting your privacy. This policy explains what information the App
-      handles and how.
+      collects, how it is used, and your choices and rights.
     </p>
   </div>
 
   <div class="card">
-    <h2>Information We Do Not Collect</h2>
-    <p>The App does <strong>not</strong> collect, transmit, or share any of the following:</p>
+    <h2>Advertising (Google AdMob)</h2>
+    <p>
+      The free version of the App is supported by advertisements served by
+      <strong>Google AdMob</strong>, a service of Google LLC. Ads may appear as banner ads,
+      interstitial (full-screen) ads, and app-open ads.
+    </p>
+    <p>
+      By default, AdMob may use your device's advertising identifier (IDFA) and other signals
+      to deliver <strong>personalized ads</strong>. You will be asked for permission before any
+      identifier is collected (see "App Tracking Transparency" below).
+    </p>
+
+    <h3>What Google AdMob May Collect</h3>
     <ul>
-      <li>Personal identification information (email, phone number, etc.)</li>
-      <li>Location data</li>
-      <li>Device identifiers or advertising IDs</li>
-      <li>Usage analytics or crash reports</li>
-      <li>Any data with third-party advertisers or data brokers</li>
+      <li>Advertising identifier (IDFA / GAID)</li>
+      <li>IP address and approximate location (country/region)</li>
+      <li>Device type, operating system, and language</li>
+      <li>Ad interaction events (impressions, clicks)</li>
+    </ul>
+
+    <h3>How to Opt Out or Manage Ad Preferences</h3>
+    <ul>
+      <li>
+        <strong>In-app:</strong> Open Settings &rarr; "Manage Ad Preferences" to review or change
+        your consent choices at any time (available in regions where consent is required).
+      </li>
+      <li>
+        <strong>Device-level:</strong> Go to iOS Settings &rarr; Privacy &amp; Security &rarr;
+        Tracking and turn off "Allow Apps to Request to Track."
+      </li>
+      <li>
+        <strong>Google's controls:</strong> Visit
+        <a href="https://adssettings.google.com/" target="_blank">adssettings.google.com</a>
+        to manage Google's personalized ad settings.
+      </li>
+      <li>
+        <strong>Go Ad-Free:</strong> Purchase the $0.99/year subscription to remove all ads
+        and disable all ad tracking within the App entirely.
+      </li>
+    </ul>
+
+    <div class="ad-note">
+      Google's collection and use of data is governed by
+      <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
+      For more information on AdMob's data practices, see
+      <a href="https://support.google.com/admob/answer/6128543" target="_blank">How Google uses
+      data when you use our partners' sites or apps</a>.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>App Tracking Transparency (ATT) &mdash; iOS 14+</h2>
+    <p>
+      On iOS 14 and later, Apple requires us to ask your permission before accessing your
+      device's advertising identifier (IDFA). When you first open the App, you will see
+      Apple's standard ATT prompt.
+    </p>
+    <ul>
+      <li>
+        If you <strong>allow tracking</strong>, Google AdMob may use your IDFA to show you
+        more relevant, personalized ads.
+      </li>
+      <li>
+        If you <strong>decline tracking</strong>, you will still see ads, but they will be
+        less personalized. No IDFA is shared with Google.
+      </li>
+      <li>
+        You can change this choice at any time in
+        <strong>iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking</strong>.
+      </li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>Data Storage &amp; iCloud Sync</h2>
+    <h2>GDPR &mdash; European Union &amp; United Kingdom Users</h2>
+    <p>
+      If you are located in the European Economic Area (EEA) or United Kingdom, the
+      <strong>General Data Protection Regulation (GDPR)</strong> applies to our processing
+      of your personal data.
+    </p>
+    <p>
+      We use Google's <strong>User Messaging Platform (UMP)</strong> to collect your consent
+      before any ad-related personal data is processed. You will see a consent dialog on first
+      launch that explains what data is collected and for what purposes.
+    </p>
+    <ul>
+      <li>You may withdraw or change your consent at any time via <strong>Settings &rarr; Manage Ad Preferences</strong>.</li>
+      <li>You have the right to access, correct, or delete your personal data held by Google. Contact Google at <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com</a>.</li>
+      <li>
+        The legal basis for ad personalization (where consent is given) is
+        <strong>consent (Article 6(1)(a) GDPR)</strong>.
+      </li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>US State Privacy Laws (CCPA / CPRA and others)</h2>
+    <p>
+      If you are a resident of California or another US state with applicable privacy laws
+      (Virginia, Colorado, Connecticut, Utah, etc.), you have specific rights regarding your
+      personal information.
+    </p>
+
+    <h3>Your Rights May Include</h3>
+    <ul>
+      <li>The right to know what personal information is collected about you</li>
+      <li>The right to delete personal information</li>
+      <li>The right to opt out of the "sale" or "sharing" of personal information</li>
+      <li>The right to non-discrimination for exercising your privacy rights</li>
+    </ul>
+
+    <h3>Do Not Sell or Share My Personal Information</h3>
+    <p>
+      Under California law, sharing your advertising identifier with ad partners may qualify
+      as a "sale" or "sharing" of personal information. To opt out:
+    </p>
+    <ul>
+      <li>Use the <strong>Settings &rarr; Manage Ad Preferences</strong> option in the App.</li>
+      <li>Decline the ATT prompt (or revoke it in iOS Settings &rarr; Privacy &rarr; Tracking).</li>
+      <li>Purchase the ad-free subscription to disable all ad data collection.</li>
+    </ul>
+    <p>
+      To exercise any other privacy rights, contact us at
+      <a href="https://github.com/randy-app">github.com/randy-app</a>.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Game Data Storage &amp; iCloud Sync</h2>
     <p>
       Player names, game scores, and game history are stored <strong>locally on your device</strong>.
       This data never leaves your device unless you are signed into iCloud and have iCloud enabled
-      for this app.
+      for this App.
     </p>
     <p>
       If you are signed into iCloud, the App uses <strong>Apple CloudKit</strong> to sync your
@@ -160,7 +296,7 @@
       <li>Your data is stored in <strong>your private iCloud account</strong>, not on our servers</li>
       <li>Randy Cox has no access to your iCloud data at any time</li>
       <li>Data is encrypted in transit and at rest by Apple</li>
-      <li>You can disable iCloud sync at any time in <strong>iOS Settings → [Your Name] → iCloud →
+      <li>You can disable iCloud sync at any time in <strong>iOS Settings &rarr; [Your Name] &rarr; iCloud &rarr;
           5 Crowns Scorekeeper</strong></li>
     </ul>
     <div class="icloud-note">
@@ -172,9 +308,13 @@
   <div class="card">
     <h2>In-App Purchases &amp; Subscriptions</h2>
     <p>
-      The App offers an optional subscription via the Apple App Store. All payment transactions
-      are processed entirely by Apple. We do not collect, store, or have access to any payment
-      or billing information.
+      The App offers an optional <strong>ad-free subscription</strong> ($0.99/year) via the
+      Apple App Store. Subscribing removes all ads and disables all ad-related data collection
+      within the App.
+    </p>
+    <p>
+      All payment transactions are processed entirely by Apple. We do not collect, store, or
+      have access to any payment or billing information.
     </p>
     <p>
       Subscription management is governed by
@@ -185,14 +325,25 @@
 
   <div class="card">
     <h2>Third-Party Services</h2>
-    <p>The App uses the following Apple-provided services only:</p>
+    <p>The App integrates the following services:</p>
     <ul>
-      <li><strong>Apple CloudKit</strong> — private iCloud data sync (see above)</li>
-      <li><strong>Apple StoreKit</strong> — subscription and purchase management</li>
+      <li>
+        <strong>Google AdMob</strong> &mdash; advertising (free users only).
+        <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>
+      </li>
+      <li>
+        <strong>Google User Messaging Platform (UMP)</strong> &mdash; consent management for
+        GDPR and US state privacy laws.
+      </li>
+      <li>
+        <strong>Apple CloudKit</strong> &mdash; private iCloud data sync.
+        <a href="https://www.apple.com/legal/privacy/" target="_blank">Apple Privacy Policy</a>
+      </li>
+      <li><strong>Apple StoreKit</strong> &mdash; subscription and purchase management.</li>
     </ul>
     <p>
-      No third-party analytics platforms, advertising networks, crash-reporting SDKs,
-      or social media services are integrated into the App.
+      When you purchase an ad-free subscription, all Google AdMob and UMP SDKs remain
+      present in the app binary but do not collect or transmit any data.
     </p>
   </div>
 
@@ -203,8 +354,12 @@
       Stats &amp; History screen in the App.
     </p>
     <p>
-      To delete your iCloud data, go to <strong>iOS Settings → [Your Name] → iCloud →
-      Manage Account Storage → 5 Crowns Scorekeeper → Delete Data</strong>.
+      To delete your iCloud data, go to <strong>iOS Settings &rarr; [Your Name] &rarr; iCloud &rarr;
+      Manage Account Storage &rarr; 5 Crowns Scorekeeper &rarr; Delete Data</strong>.
+    </p>
+    <p>
+      To request deletion of data held by Google AdMob, visit
+      <a href="https://myaccount.google.com/data-and-privacy" target="_blank">myaccount.google.com/data-and-privacy</a>.
     </p>
   </div>
 
@@ -212,7 +367,9 @@
     <h2>Children's Privacy</h2>
     <p>
       The App is suitable for all ages. We do not knowingly collect personal information from
-      children under 13. The App complies with the Children's Online Privacy Protection Act (COPPA).
+      children under 13. Google AdMob is configured to serve non-personalized ads only to
+      users under 13. The App complies with the Children's Online Privacy Protection Act (COPPA)
+      and Apple's guidelines for apps suitable for children.
     </p>
   </div>
 
@@ -228,14 +385,15 @@
   <div class="card">
     <h2>Contact Us</h2>
     <p>
-      If you have any questions about this privacy policy, please contact us at:
+      If you have any questions about this privacy policy or wish to exercise your privacy
+      rights, please contact us at:
     </p>
     <p>
       GitHub: <a href="https://github.com/randy-app">github.com/randy-app</a>
     </p>
   </div>
 
-  <p class="effective">Effective Date: April 12, 2026</p>
+  <p class="effective">Effective Date: April 17, 2026</p>
 
 </main>
 
